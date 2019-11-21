@@ -1,0 +1,5 @@
+Disallow: /sitecore modules/
+Disallow: /sitecore_files/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: */registeration
