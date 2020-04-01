@@ -12,52 +12,62 @@
     ],
     "skills": [
         {
-            "name": "SPFX",
+            "name": "SPFX - Sharepoint",
+            "label": "SPFX",
             "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
         },
         {
             "name": "Web Scrapping",
+	    "label": "WS",
             "desc": "The tools I use for scrapping is Selenium/Scrappy/Beautiful-Soap"
         },
         {
             "name": "Android Development",
+	     "label": "AD",
             "desc": "I have designed and developed advanced applications for the Android platform"
         },
         {
             "name": "Python",
+		 "label": "Python",
             "desc": "The language I use for scripting / scrapping & web development as well. I also have enough experience of working in Django/Flask frameworks"
         },
         {
             "name": "ReactJS",
-            "desc": "I have 1 year experience as React Developer"
+		 "label": "ReactJS",
+            "desc": "I have 1.5 years experience as React Developer"
         },
         {
             "name": "Angular",
+		 "label": "Angular",
             "desc": "Angular 6.0"
         },
         {
             "name": "Node",
-            "desc": "Node developer having experience in Express/Handlebars/Angular/React"
+		 "label": "Node",
+            "desc": "Experienced in Express / Handlebars / Angular / React"
         },
         {
             "name": ".Net Core 2",
-            "desc": "I have developed several APIs in .Net Core 2.0"
+		 "label": "NC2",
+            "desc": "REST API development"
         },
         {
             "name": "Redux",
+		 "label": "Redux",
             "desc": "State Management library. I use it with ReactJs when it's needed"
         },
 		{
             "name": "Ionic",
-            "desc": "Have basic experience in hybrid development using ionic-angular with python django backend"
+			 "label": "Ionic",
+            "desc": "Have basic experience in hybrid development using ionic-angular & ionic-react"
         },
         {
-            "name": "SQL",
-            "desc": "The relational database management system behind many of my projects, I have used SQL Server/Oracle/MySql/PostgreSQL"
+            "name": "SQL", "label": "SQL",
+            "desc": "SQL Server / Oracle/ MySql / PostgreSQL"
         },
         {
-            "name": "NOSQL",
-            "desc": "I have used Firebase/MongoDB/Azure Table Storage"
+            "name": "NOSQL", "label": "NOSQL",
+            "desc": "Firebase / MongoDB/ Azure Table Storage"
         }
     ]
 }
