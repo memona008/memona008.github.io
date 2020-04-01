@@ -26,9 +26,9 @@ function loadPortfolio() {
         $(".panel-group").append(
             "<div class='panel'>" +
             "<h4>" +
-            "<a data-toggle='collapse' data-parent='#accordion' href='#panel-" + skills[i].name + "'>"+skills[i].name+"</a>" +
+            "<a data-toggle='collapse' data-parent='#accordion' href='#panel-" + skills[i].label + "'>"+skills[i].name+"</a>" +
             "</h4>" +
-            "<div id='panel-" + skills[i].name + "' class='panel-collapse collapse'>" +
+            "<div id='panel-" + skills[i].label + "' class='panel-collapse collapse'>" +
             "<div class='panel-body'>" + skills[i].desc + "</div>" +
             "</div>" +
             "</div>"
