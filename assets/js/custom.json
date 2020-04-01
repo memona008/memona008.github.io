@@ -64,7 +64,6 @@
         }
     ],
     "skills": [
-	,
         {
             "name": "SPFX",
             "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
