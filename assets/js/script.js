@@ -1,4 +1,4 @@
-var subtitles, projects, skills, award, oppSide;
+var subtitles,skills, award, oppSide;
 var count = 0;
 var tabOut = {
     left: false,
@@ -16,30 +16,12 @@ if (window.innerWidth > 700) {
 
 $.getJSON("assets/js/custom.json", function (data) {
     subtitles = data.subtitles;
-    projects = data.projects;
     skills = data.skills;
     loadPortfolio();
 });
 
 function loadPortfolio() {
     changeSubtitle();
-    for (var i = 0; i < projects.length; i++) {
-        if (projects[i].hasOwnProperty('award')) {
-            projects[i].award = projects[i].award.replace("/nl", "<br>")
-            award = "<br><br><span style='color:goldenrod'>" + projects[i].award + "</span>";
-        } else {
-            award = "";
-        }
-        $("#sidebar-right").append(
-            "<div class='project'>" +
-            "<a href=" + projects[i].link + " target='_newtab'>" +
-            "<img class='projectImg' src='assets/img/projects/" + projects[i].img + "'>" +
-            "</a>" +
-            "<h4>" + projects[i].title + "</h4>" +
-            "<h5>" + projects[i].desc + award + "</h5>" +
-            "</div>"
-        );
-    }
     for (var i = 0; i < skills.length; i++) {
         $(".panel-group").append(
             "<div class='panel'>" +
@@ -74,9 +56,7 @@ $(".sidebarTab").hover(function () {
     tabClick(tabOut[$(this).attr('id').substring(11)], $(this).attr('id').substring(11));
 });
 
-if (window.location.href.indexOf('#calendar') != -1) {
-    $('#calendarModal').modal('show');
-} else if (window.location.href.indexOf('#resume') != -1) {
+ if (window.location.href.indexOf('#resume') != -1) {
     $('#resumeModal').modal('show');
 }
 
