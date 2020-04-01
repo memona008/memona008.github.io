@@ -10,107 +10,64 @@
         "Fullstack Developer",
 		"Freelancer"
     ],
-    "projects": [
-        {
-            "title": "COVID-19 Visualizer",
-            "desc": "An interactive coronavirus tracker used by over 25 million people, placing data from Worldometer on a Three.js globe.",
-            "img": "covidvisualizer.png",
-            "link": "https://covidvisualizer.com"
-        },
-        {
-            "title": "AccessIDE",
-            "desc": "An accessible and time-saving online IDE utilizing voice input and output along with powerful keyboard shortcuts. On GitHub.",
-            "img": "access-ide.png",
-            "link": "https://github.com/navidmx/AccessIDE",
-            "award": "Featured in Bloomberg, Finalist at TartanHacks 2019"
-        },
-        {
-            "title": "PAETHOS",
-            "desc": "A virtual reality experience that utilizes EEG sensors to turn brainwaves into an interactive and educational art piece.",
-            "img": "paethos.png",
-            "link": "https://github.com/navidmx/Paethos"
-        },
-        {
-            "title": "Rana Abdelhamid's Website",
-            "desc": "Developed for Rana Abdelhamid: human rights organizer, black belt, and entrepreneur. Built to increase her social presence and promote her work.",
-            "img": "rana-website.png",
-            "link": "http://ranaabdelhamid.com"
-        },
-        {
-            "title": "Centre News",
-            "desc": "A responsive web app to combat polarizing media bias by presenting a variety of politically diverse news sources on the same website.",
-            "img": "centre-news.png",
-            "link": "https://navidmx.com/news",
-            "award": "Winner of 2017 Congressional App Challenge/nlNew York 12th District"
-        },
-        {
-            "title": "College Organizer",
-            "desc": "A personal project, designed to automate a large portion of the tedious college researching process, using College Scorecard API and Firebase.",
-            "img": "college-organizer.png",
-            "link": "https://navidmx.com/college"
-        },
-        {
-            "title": "Fruit Sensei",
-            "desc": "Developed for StuyHacks, a parody of the famous Fruit Ninja that connects your phone to your display, in an attempt to slice as many fruits as possible.",
-            "img": "fruit-sensei.png",
-            "link": "http://fruitsensei.tech",
-            "award": "Winner at StuyHacks 2017/nl'Best Game' Category"
-        },
-        {
-            "title": "All Star Wars",
-            "desc": "Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.",
-            "img": "all-star-wars.png",
-            "link": "http://navidmx.herokuapp.com"
-        }
-    ],
     "skills": [
         {
-            "name": "SPFX",
+            "name": "SPFX - Sharepoint",
+            "label": "SPFX",
             "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
         },
         {
             "name": "Web Scrapping",
+	    "label": "WS",
             "desc": "The tools I use for scrapping is Selenium/Scrappy/Beautiful-Soap"
         },
         {
             "name": "Android Development",
+	     "label": "AD",
             "desc": "I have designed and developed advanced applications for the Android platform"
         },
         {
             "name": "Python",
+		 "label": "Python",
             "desc": "The language I use for scripting / scrapping & web development as well. I also have enough experience of working in Django/Flask frameworks"
         },
         {
             "name": "ReactJS",
-            "desc": "I have 1 year experience as React Developer"
+		 "label": "ReactJS",
+            "desc": "I have 1.5 years experience as React Developer"
         },
         {
             "name": "Angular",
+		 "label": "Angular",
             "desc": "Angular 6.0"
         },
         {
             "name": "Node",
-            "desc": "Node developer having experience in Express/Handlebars/Angular/React"
+		 "label": "Node",
+            "desc": "Experienced in Express / Handlebars / Angular / React"
         },
         {
             "name": ".Net Core 2",
-            "desc": "I have developed several APIs in .Net Core 2.0"
+		 "label": "NC2",
+            "desc": "REST API development"
         },
         {
             "name": "Redux",
+		 "label": "Redux",
             "desc": "State Management library. I use it with ReactJs when it's needed"
         },
 		{
             "name": "Ionic",
-            "desc": "Have basic experience in hybrid development using ionic-angular with python django backend"
+			 "label": "Ionic",
+            "desc": "Have basic experience in hybrid development using ionic-angular & ionic-react"
         },
         {
-            "name": "SQL",
-            "desc": "The relational database management system behind many of my projects, I have used SQL Server/Oracle/MySql/PostgreSQL"
+            "name": "SQL", "label": "SQL",
+            "desc": "SQL Server / Oracle/ MySql / PostgreSQL"
         },
         {
-            "name": "NOSQL",
-            "desc": "I have used Firebase/MongoDB/Azure Table Storage"
+            "name": "NOSQL", "label": "NOSQL",
+            "desc": "Firebase / MongoDB/ Azure Table Storage"
         }
     ]
 }
