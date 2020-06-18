@@ -7,27 +7,27 @@
     "skills": [
 	    {
             "name": "Computer Vision",
-	     "label": "CV",
-            "desc": "Object detection, Edge detection, Pictures transformation, Preprocessing on images"
+			"label": "CV",
+            "desc": "Object detection, Edge detection, Pictures transformation"
         }, 
 		{
             "name": "Machine Learning",
-	     "label": "ML",
+			"label": "ML",
             "desc": "Classification: SVM, MLP"
         },
 		{
             "name": "Deep Learning",
-	     "label": "DL",
+			"label": "DL",
             "desc": "Classification: CNN"
         },
         {
             "name": "Web Scrapping",
-	    "label": "WS",
+			"label": "WS",
             "desc": "The tools I use for scrapping is Selenium/Scrappy/Beautiful-Soap"
         },
         {
             "name": "Android Development",
-	     "label": "AD",
+			"label": "AD",
             "desc": "I have designed and developed advanced applications on the Android platform for my freelancing clients"
         },
 		{
