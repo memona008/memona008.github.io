@@ -1,20 +1,24 @@
 {
     "subtitles": [
-        "Python Developer",
-        "MERN stack Developer",
-        "MEAN stack Developer",
-        ".Net Core Developer",
-        "Android Developer",
-        "Medium Blogger",
-		"Sharepoint Developer",
         "Fullstack Developer",
-		"Freelancer"
+		"Quick Learner",
+		"Freelancer",
     ],
     "skills": [
-        {
-            "name": "SPFX - Sharepoint",
-            "label": "SPFX",
-            "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
+	    {
+            "name": "Computer Vision",
+	     "label": "CV",
+            "desc": "Object detection, Edge detection, Pictures transformation, Preprocessing on images"
+        }, 
+		{
+            "name": "Machine Learning",
+	     "label": "ML",
+            "desc": "Classification: SVM, MLP"
+        },
+		{
+            "name": "Deep Learning",
+	     "label": "DL",
+            "desc": "Classification: CNN"
         },
         {
             "name": "Web Scrapping",
@@ -24,7 +28,17 @@
         {
             "name": "Android Development",
 	     "label": "AD",
-            "desc": "I have designed and developed advanced applications for the Android platform"
+            "desc": "I have designed and developed advanced applications on the Android platform for my freelancing clients"
+        },
+		{
+            "name": "Fullstack Development",
+			"label": "FSD",
+            "desc": "I have developed many projects for my clients in different stacks and frameworks which includes MERN, MEAN, ASP.NET, Django, Flask"
+        },
+		{
+            "name": "SPFX - Sharepoint",
+            "label": "SPFX",
+            "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
         },
         {
             "name": "Python",
@@ -37,14 +51,9 @@
             "desc": "I have 1.5 years experience as React Developer"
         },
         {
-            "name": "Angular",
-		 "label": "Angular",
-            "desc": "Angular 6.0"
-        },
-        {
             "name": "Node",
 		 "label": "Node",
-            "desc": "Experienced in Express / Handlebars / Angular / React"
+            "desc": "Experienced in Express / Handlebars"
         },
         {
             "name": ".Net Core 2",
@@ -55,11 +64,6 @@
             "name": "Redux",
 		 "label": "Redux",
             "desc": "State Management library. I use it with ReactJs when it's needed"
-        },
-		{
-            "name": "Ionic",
-			 "label": "Ionic",
-            "desc": "Have basic experience in hybrid development using ionic-angular & ionic-react"
         },
         {
             "name": "SQL", "label": "SQL",
