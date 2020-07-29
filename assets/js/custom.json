@@ -1,24 +1,25 @@
 {
     "subtitles": [
-        "Fullstack Developer",
+		"Software Engineer",
 		"Quick Learner",
-		"Freelancer"
+		"Deep Learning Enthusiast"
+		
     ],
     "skills": [
 	    {
             "name": "Computer Vision",
 			"label": "CV",
-            "desc": "Object detection, Edge detection, Pictures transformation"
+            "desc": "Object detection, Motion Detection, Edge detection, Pictures transformation, Image Processing"
         }, 
 		{
             "name": "Machine Learning",
 			"label": "ML",
-            "desc": "Classification: SVM, MLP"
+            "desc": "Classification: Linear Regression, Logistic Regression, SVM, MLP"
         },
 		{
             "name": "Deep Learning",
 			"label": "DL",
-            "desc": "Classification: CNN"
+            "desc": "Classification: CNN, AlexNet, VGG16, ResNet, inceptionNet, Transfer Learning, Fine Tuning"
         },
         {
             "name": "Web Scrapping",
@@ -56,9 +57,9 @@
             "desc": "Experienced in Express / Handlebars"
         },
         {
-            "name": ".Net Core 2",
+            "name": ".Net Core 2,3.1",
 		 "label": "NC2",
-            "desc": "REST API development"
+            "desc": "REST API development, Web Application with MVC or SPA"
         },
         {
             "name": "Redux",
