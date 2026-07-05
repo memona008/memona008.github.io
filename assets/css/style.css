@@ -50,6 +50,7 @@ body {
 
 #subtitle {
     display: none;
+    min-height: 1.3em;
 }
 
 #navbar {
@@ -60,11 +61,15 @@ body {
 
 h1 {
     font-size: 40px;
+    margin-bottom: 0;
+    line-height: 1.15;
 }
 
 h2 {
     font-size: 30px;
-    margin-top: -20px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    line-height: 1.3;
 }
 
 h3 {
@@ -269,10 +274,85 @@ a {
     background-color: transparent;
 }
 
+.panel h4 a {
+    cursor: pointer;
+    outline: 0;
+}
+
+.panel h4 a:hover,
+.panel h4 a:focus {
+    color: #60d4ff;
+    text-decoration: none;
+}
+
+.skill-icon {
+    font-size: 22px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
 .panel-body {
     padding: 10px 5% 10px 5%;
     color: #d1d1d1;
     font-size: 18px;
+    text-align: left;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.logos i {
+    transition: transform .3s;
+}
+
+.logos i:hover {
+    transform: scale(1.15);
+}
+
+/* Projects list (right sidebar) */
+#projects-list {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-card {
+    padding: 18px 0;
+    border-bottom: 1px solid #444;
+}
+
+.project-card h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.project-link {
+    color: #60d4ff;
+    transition: color .5s;
+}
+
+.project-link:hover,
+.project-link:focus {
+    color: #38afdb;
+    text-decoration: none;
+}
+
+.project-card p {
+    color: #d1d1d1;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Bootstrap 5 modal dark theme */
+.modal-header {
+    border-bottom: 1px solid #333;
 }
 
 .modal-body,
@@ -295,8 +375,8 @@ a {
         font-size: 80px;
     }
     h2 {
-        margin-top: -45px;
-        margin-bottom: 20px;
+        margin-top: 16px;
+        margin-bottom: 24px;
         font-size: 40px;
     }
     h3 {

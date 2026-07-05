@@ -1,78 +1,80 @@
 {
     "subtitles": [
-		"Software Engineer",
-		"Quick Learner",
-		"Deep Learning Enthusiast"
-		
+        "7+ Years Building Production Software",
+        "Senior Fullstack Engineer",
+        "Product Engineer",
+        "AI & Agentic Systems"
     ],
     "skills": [
-	    {
-            "name": "Computer Vision",
-			"label": "CV",
-            "desc": "Object detection, Motion Detection, Edge detection, Pictures transformation, Image Processing"
-        }, 
-		{
-            "name": "Machine Learning",
-			"label": "ML",
-            "desc": "Classification: Linear Regression, Logistic Regression, SVM, MLP"
-        },
-		{
-            "name": "Deep Learning",
-			"label": "DL",
-            "desc": "Classification: CNN, AlexNet, VGG16, ResNet, inceptionNet, Transfer Learning, Fine Tuning"
-        },
         {
-            "name": "Web Scrapping",
-			"label": "WS",
-            "desc": "The tools I use for scrapping is Selenium/Scrappy/Beautiful-Soap"
-        },
-        {
-            "name": "Android Development",
-			"label": "AD",
-            "desc": "I have designed and developed advanced applications on the Android platform for my freelancing clients"
-        },
-		{
             "name": "Fullstack Development",
-			"label": "FSD",
-            "desc": "I have developed many projects for my clients in different stacks and frameworks which includes MERN, MEAN, ASP.NET, Django, Flask"
-        },
-		{
-            "name": "SPFX - Sharepoint",
-            "label": "SPFX",
-            "desc": "Sharepoint Framework is a page and web part model that provides full support for client-side SharePoint development, easy integration with SharePoint data, and support for open source tooling"
+            "label": "fullstack",
+            "icon": "devicon-react-original colored",
+            "desc": "<div class='logos'><i class='devicon-react-original colored'></i><i class='devicon-typescript-plain colored'></i><i class='devicon-python-plain colored'></i><i class='devicon-django-plain colored'></i><i class='devicon-fastapi-plain colored'></i></div>7+ years shipping end-to-end products &mdash; React/TypeScript frontends on Python (Django, FastAPI, Flask) and .NET backends. Delivered scalable, secure, high-performance systems used by real clients."
         },
         {
-            "name": "Python",
-		 "label": "Python",
-            "desc": "The language I use for scripting / scrapping & web development as well. I also have enough experience of working in Django/Flask frameworks"
+            "name": "Agentic AI",
+            "label": "agentic",
+            "icon": "devicon-openai-original",
+            "desc": "<div class='logos'><i class='devicon-openai-original'></i><i class='devicon-python-plain colored'></i></div>Design multi-agent LLM pipelines with typed Pydantic contracts (FactCheck &rarr; Write &rarr; Review &rarr; Publish). Built with Pydantic AI, OpenAI, durable checkpointing (Kitaru) and LLM observability (Langfuse)."
         },
         {
-            "name": "ReactJS",
-		 "label": "ReactJS",
-            "desc": "I have 1.5 years experience as React Developer"
+            "name": "Frontend",
+            "label": "frontend",
+            "icon": "devicon-typescript-plain colored",
+            "desc": "<div class='logos'><i class='devicon-react-original colored'></i><i class='devicon-redux-original colored'></i><i class='devicon-typescript-plain colored'></i><i class='devicon-javascript-plain colored'></i></div>React, Redux, TypeScript &mdash; component-driven, responsive UIs. Built and optimized frontend for the Valohai MLOps platform."
         },
         {
-            "name": "Node",
-		 "label": "Node",
-            "desc": "Experienced in Express / Handlebars"
+            "name": "Backend & APIs",
+            "label": "backend",
+            "icon": "devicon-django-plain colored",
+            "desc": "<div class='logos'><i class='devicon-django-plain colored'></i><i class='devicon-fastapi-plain colored'></i><i class='devicon-flask-original'></i><i class='devicon-nodejs-plain colored'></i><i class='devicon-dotnetcore-plain colored'></i></div>Django, FastAPI, Flask, Node/Express, .NET Core. REST API design, complex pipelines, multi-cloud integrations and Docker containers."
         },
         {
-            "name": ".Net Core 2,3.1",
-		 "label": "NC2",
-            "desc": "REST API development, Web Application with MVC or SPA"
+            "name": "AI / ML & Computer Vision",
+            "label": "aiml",
+            "icon": "devicon-pytorch-original colored",
+            "desc": "<div class='logos'><i class='devicon-pytorch-original colored'></i><i class='devicon-keras-plain colored'></i><i class='devicon-opencv-plain colored'></i></div>PyTorch, Keras, OpenCV. CNNs, transfer learning, spatio-temporal activity recognition, real-time object detection &amp; tracking on live camera feeds."
         },
         {
-            "name": "Redux",
-		 "label": "Redux",
-            "desc": "State Management library. I use it with ReactJs when it's needed"
+            "name": "Databases & Data",
+            "label": "data",
+            "icon": "devicon-postgresql-plain colored",
+            "desc": "<div class='logos'><i class='devicon-postgresql-plain colored'></i><i class='devicon-mongodb-plain colored'></i><i class='devicon-redis-plain colored'></i></div>PostgreSQL, MongoDB, Redis, Celery. ETL/ELT pipelines, SQL &amp; NoSQL, Azure Table / Cosmos DB."
         },
         {
-            "name": "SQL", "label": "SQL",
-            "desc": "SQL Server / Oracle/ MySql / PostgreSQL"
+            "name": "Cloud & DevOps",
+            "label": "cloud",
+            "icon": "devicon-docker-plain colored",
+            "desc": "<div class='logos'><i class='devicon-amazonwebservices-plain-wordmark colored'></i><i class='devicon-docker-plain colored'></i><i class='devicon-kubernetes-plain colored'></i><i class='devicon-git-plain colored'></i></div>AWS (EC2), Docker, Kubernetes, CI/CD, Git. On-premises and cloud deployments with containerized workloads."
         },
         {
-            "name": "NOSQL", "label": "NOSQL",
-            "desc": "Firebase / MongoDB/ Azure Table Storage"
+            "name": "Languages",
+            "label": "languages",
+            "icon": "devicon-python-plain colored",
+            "desc": "<div class='logos'><i class='devicon-python-plain colored'></i><i class='devicon-typescript-plain colored'></i><i class='devicon-javascript-plain colored'></i><i class='devicon-csharp-plain colored'></i><i class='devicon-java-plain colored'></i></div>Python, TypeScript, JavaScript, C#, SQL, Java."
+        }
+    ],
+    "projects": [
+        {
+            "name": "AgentFlow &mdash; Agentic Article Pipeline",
+            "link": "https://github.com/memona008/agentic-article-pipeline",
+            "desc": "Production-style multi-agent AI workflow that fact-checks, drafts, reviews and publishes articles autonomously. Specialized agents with typed Pydantic contracts, durable Kitaru checkpoints, Langfuse tracing, and Google Drive publishing."
+        },
+        {
+            "name": "Valohai Libraries Integration",
+            "link": "https://app.valohai.com",
+            "desc": "Led end-to-end development of a reusable library integration across frontend, backend and APIs on the Valohai MLOps platform. GitHub integration, role-based access control, and isolated container execution used by multiple teams."
+        },
+        {
+            "name": "Theft Alert System",
+            "link": "https://saigroups.com/pick-in-aisle-but-not-scan-in-sco",
+            "desc": "Real-time theft detection using a spatio-temporal activity recognition model (SlowFast, transfer learning) trained on 450+ surveillance videos. Multi-threaded deployment handling live camera feeds and alerting security staff."
+        },
+        {
+            "name": "Vision-based Customer Analytics",
+            "link": "https://saigroups.com/journey-statistics",
+            "desc": "Detects and tracks shoppers across retail aisles, distinguishing passers-by, shoppers and staff. Generates dwell-time and aisle-engagement reports from live video."
         }
     ]
 }
